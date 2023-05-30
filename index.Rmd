@@ -5,5 +5,19 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Down the rabbit-hole
+# A natureza da econometria e os dados econômicos
+
+## Exercícios com computador
+
+1. Para este exercício, empregue a base de dados `WAGE1.RAW`.
+
+  i) Determine o nível de educação médio da amostra. Quais são os níveis de educação mínimo e máximo?
+  
+  ii) Determine o salário médio por hora (*wage*) da amostra. Parece ser alto ou baixo?
+  
+  iii) Os dados de salários estão em dólares de 1976. Usando o *Economic Report of the President* (de 2004 ou posterior ou o Informe de Governo em países de língual espanhola) obtenha e dê os índices de preços ao consumidor (IPC) correspondentes a 1976 e 2003.
+  
+  iv) Use os valores dos IPC do inciso iii) para determinar o salário médio por hora em dólares de 2003. Parece agora mais razoável o salário médio por hora?
+  
+  v) Quantas mulheres (*females*) existem na amostra? Quantos homens?
 
