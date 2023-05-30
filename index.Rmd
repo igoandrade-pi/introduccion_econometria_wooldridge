@@ -1,6 +1,6 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "Resolução do livro 'Introducción a la econometría (Wooldridge)'"
+author: "Igo da Costa Andrade"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
