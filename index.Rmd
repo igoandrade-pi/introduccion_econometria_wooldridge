@@ -59,6 +59,3 @@ site: bookdown::bookdown_site
   iii) A variável *unem78* indica se um homem esteve desempregado ou não em 1978. Que proporção de homens que receberam treinamento para o trabalho estão desempregados? E daqueles que não receberam capacitação? Comente a diferença.
   
   iv) Com base nos incisos ii) e iii), parece tersido efetivo o programa de capacitação laboral? Que faria com que nossa conclusão fosse mais convincente?
-  
-  iv) 
-
