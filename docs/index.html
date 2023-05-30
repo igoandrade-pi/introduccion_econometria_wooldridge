@@ -120,6 +120,38 @@
 <li><p>Use os valores dos IPC do inciso iii) para determinar o salário médio por hora em dólares de 2003. Parece agora mais razoável o salário médio por hora?</p></li>
 <li><p>Quantas mulheres (<em>females</em>) existem na amostra? Quantos homens?</p></li>
 </ol>
+<ol start="2" style="list-style-type: decimal">
+<li>Para responder estas perguntas utilize a base de dados <code>BWGHT.RAW</code>.</li>
+</ol>
+<ol style="list-style-type: lower-roman">
+<li><p>Quantas mulheres existem na amostra (male = 0) e quantas das informantes fumaram durante a gravidez?</p></li>
+<li><p>Qual é a quantidade média de cigarros consumidos por dia (cigs)? É a média, neste caso, uma medida representativa da mulher “típica”? Explique.</p></li>
+<li><p>Entre as mulheres que fumaram durante a gravidez, qual é a quantidade média de cigarros consumidos por dia? Qual é a relação deste com sua resposta ao inciso ii) e por quê?</p></li>
+<li><p>Determine a média de <em>fatheduc</em> (anos de educação dos pais) na amostra. Por que se empregam 1192 observações para calcular este valor médio?</p></li>
+<li><p>Determine a renda familiar média (<em>famine</em>) e o respectivo desvio padrão em dólares.</p></li>
+</ol>
+<ol start="3" style="list-style-type: decimal">
+<li>O dados de <code>MEAP01.RAW</code> pertencem ao estado de Michigan no ano de 2001. Empregue esses dados para responder as percuntas seguintes.</li>
+</ol>
+<ol style="list-style-type: lower-roman">
+<li><p>Determine os valores máximo e mínimo de <em>math4</em>. É lógico este intervalo? Explique.</p></li>
+<li><p>Quantas escolas têm uma taxa perfeita de aprovados no exame de matemática? A que porcentagem do total da amostra corresponde esta quantidade?</p></li>
+<li><p>Em quantas escolar a taxa de aprovados em matemática é exatamente 50%?</p></li>
+<li><p>Compare a média das taxas de aprovados em matemática e em leitura. Qual destas prova é mais difícil de aprovar?</p></li>
+<li><p>Encontre a correlação entre <em>math4</em> e <em>read4</em>? Que se conclui disso?</p></li>
+<li><p>A variável <em>exppp</em> é o gasto por aluno. Determine o valor médio e o desvio padrão de <em>exppp</em>. Parece haver uma grande variação no gasto por aluno?</p></li>
+<li><p>Suponha que a escola A gasta 6000 dólares por aluno e a escola B gasta 5000 dólares por aluno. Dê a porcentagem em que o gasto da escola A supera o gasto da escola B. Compare esta porcentagem com <span class="math inline">\(100 \cdot \left[\log{(6000)} - \log{(5000)}\right]\)</span>, que é a diferença percentual aproximada baseada na diferença dos logarítmos naturais.</p></li>
+</ol>
+<ol start="4" style="list-style-type: decimal">
+<li>A base de dados <code>JTRAIN2.RAW</code> provém de um experimento de capacitação para o trabalho realizado para homens com baixa renda durante 1976-1977.</li>
+</ol>
+<ol style="list-style-type: lower-roman">
+<li><p>Use a variável indicadora <em>train</em> para determinar a proporção de homens que receberam treinamento no trabalho.</p></li>
+<li><p>A variável <em>re78</em> é a renda desde 1978, dados em dólares de 1982. Determine a valor médio de <em>re78</em> para a amostra de homens que receberam a capacitação no trabalho e para a amostra de homens que não receberam. Esta diferença é economicamente grande?</p></li>
+<li><p>A variável <em>unem78</em> indica se um homem esteve desempregado ou não em 1978. Que proporção de homens que receberam treinamento para o trabalho estão desempregados? E daqueles que não receberam capacitação? Comente a diferença.</p></li>
+<li><p>Com base nos incisos ii) e iii), parece tersido efetivo o programa de capacitação laboral? Que faria com que nossa conclusão fosse mais convincente?</p></li>
+<li></li>
+</ol>
 
 </div>
 </div>
@@ -183,6 +215,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
